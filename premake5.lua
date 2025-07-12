@@ -28,3 +28,4 @@ project "GLFW"
 		symbols "on"
 	filter "configurations:Release"
 		optimize "speed"
+	filter {} 
