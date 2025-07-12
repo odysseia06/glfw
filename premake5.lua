@@ -15,8 +15,7 @@ project "GLFW"
 		removefiles {
         "src/x11_*.c",
         "src/posix_*.c",
-        "src/cocoa_*.c",
-        "src/null_*.c"
+        "src/cocoa_*.c"
 		}
 	filter "system:linux"
 		defines { "_GLFW_X11" }
