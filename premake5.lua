@@ -18,6 +18,7 @@ project "GLFW"
         "src/cocoa_*.c"
 		}
 	filter "system:linux"
+		pic "On"
 		defines { "_GLFW_X11" }
 		removefiles {
         "src/win32_*.c",
